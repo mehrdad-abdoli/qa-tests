@@ -10,37 +10,19 @@
 $ bash ./installation.sh
 ```
 
+## RUNUNG TEST ##
+```
+$ bash ./run_test.sh
+```
 ## WEB DRIVERS ##
 - chromedriver & geckodriver suiteable with your OS and browser version
 - chromedriver 74 and geckodriver 0.24 for linux x64 are in libs and will be copied to bin dir of venv)
-  - if encounter this error
+  - if encounter this error:
   ```
   WebDriverException: Message: 'chromedriver' executable needs to be in PATH.
   ```
   its because your chrome version is not 74 Please see https://sites.google.com/a/chromium.org/chromedriver/home
 
-## RUNUNG TEST ##
-```
-$ bash ./run_test.sh
-```
-
-## MANUAL REQUIREMENTS INSTALATION  ##
-- Install the virtualenv package
-```
-$ pip install virtualenv
-```
-- Add New Virtualenv
-```
-$ virtualenv qatask -p python3
-```
-- Activate the virtual environment
-```
-$ source qatask/bin/activate
-```
-- Install requirements
-```
-$ pip install -r requirements.txt
-```
 
 ## ROBOT FRAMEWORKS COMMAND FOR RUN THE TEST ##
 ```

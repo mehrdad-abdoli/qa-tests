@@ -14,6 +14,17 @@ $ bash ./installation.sh
 ```
 $ bash ./run_test.sh
 ```
+
+## TESTS ##
+- Step 1: Validation of Form looks like in the attached image
+- step 2: Company Details
+- step 3: Administrator account details
+- step 4: Terms and conditions
+- step 5: Sign up And Login To Dashboard
+
+## LOGS ##
+- Logs and reports for tests will be saved in logs directory
+
 ## WEB DRIVERS ##
 - chromedriver & geckodriver suiteable with your OS and browser version
 - chromedriver 74 and geckodriver 0.24 for linux x64 are in libs and will be copied to bin dir of venv)
@@ -38,16 +49,6 @@ $ robot -P ./libs/ -d logs -v browser:chrome signup_and_Login.robot
 
 ## RUN IN REMOTE SELENIUM GRID ##
  can be run in any remote Selenium grid with uncomment  remote_url=${SelenimURL} in resources/setup.robot and define ${SelenimURL}
-
-## TESTS ##
-- Step 1: Validation of Form looks like in the attached image
-- step 2: Company Details
-- step 3: Administrator account details
-- step 4: Terms and conditions
-- step 5: Sign up And Login To Dashboard
-
-## LOGS ##
-- Logs and reports for tests will be saved in logs directory
 
 ## ROBOT FRAMEWORK ##
 
